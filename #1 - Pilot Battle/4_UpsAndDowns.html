@@ -1,0 +1,36 @@
+<style>
+    body {
+        background: #62306D;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .shape {
+        width: 100px;
+        height: 100px;
+        background: #F7EC7D;
+        position: fixed;
+    }
+
+    .down {
+        border-radius: 50% 50% 0 0;
+        top: 50px;
+    }
+
+    .up {
+        border-radius: 0 0 50% 50%;
+        bottom: 50px;
+    }
+
+    .left {
+        left: 50px;
+    }
+
+    .right {
+        right: 50px;
+    }
+</style>
+<div class="down shape" />
+<div class="up left shape" />
+<div class="up right shape" />
