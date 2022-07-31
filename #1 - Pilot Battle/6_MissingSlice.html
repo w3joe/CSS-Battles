@@ -1,0 +1,50 @@
+<style>
+    body {
+        background: #E3516E;
+        margin: 0;
+    }
+
+    .box {
+        width: 50%;
+        height: 50%;
+        float: left;
+        position: relative;
+    }
+
+    .quadrant {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .q1 {
+        background: #51B5A9;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 100% 0 0 0;
+    }
+
+    .q2 {
+        background: #FADE8B;
+        bottom: 0px;
+        left: 0px;
+        border-radius: 0 100% 0 0;
+    }
+
+    .q3 {
+        background: #F7F3D7;
+        top: 0px;
+        right: 0px;
+        border-radius: 0 0 0 100%;
+    }
+</style>
+<div class="box">
+    <div class="quadrant q1"></div>
+</div>
+<div class="box">
+    <div class="quadrant q2"></div>
+</div>
+<div class="box">
+    <div class="quadrant q3"></div>
+</div>
